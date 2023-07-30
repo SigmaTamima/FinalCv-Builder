@@ -8,11 +8,7 @@
     "npm": "9.8.0"
   },
   "scripts": {
-      "client-install": "npm install --prefix client",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "node server.js",
+"build:staging": "env-cmd -f .env.staging npm run build"
   
   },
   "author": "",
