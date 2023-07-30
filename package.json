@@ -7,9 +7,14 @@
     "node": "20.2.0",
     "npm": "9.8.0"
   },
+
   "scripts": {
-    "start": "nodemon server.js",
-    "build": "npm run build"
+    "resume-install": "npm install --prefix resume",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix resume",
+    "dev": "concurrently \"npm run server\" \"npm run resume\"",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix resume && npm run build --prefix resume"
   },
   "author": "",
   "license": "ISC",
