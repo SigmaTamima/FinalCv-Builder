@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "nodemon server",
-    "build ": " npm i"
+    "build ": " npm start"
   },
   "author": "",
   "license": "ISC",
