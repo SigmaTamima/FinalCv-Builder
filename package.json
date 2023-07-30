@@ -9,12 +9,7 @@
   },
 
   "scripts": {
-    "resume-install": "npm install --prefix resume",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix resume",
-    "dev": "concurrently \"npm run server\" \"npm run resume\"",
-    "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix resume && npm run build --prefix resume"
+ "test": "echo\"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
