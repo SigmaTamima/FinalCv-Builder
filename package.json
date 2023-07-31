@@ -9,8 +9,8 @@
   },
 
   "scripts": {
- "dev": "nodemon server.js",
-    "build": "npm run build"
+ "build": "nodemon server.js",
+  
   },
   "author": "",
   "license": "ISC",
