@@ -9,9 +9,10 @@
   },
 
   "scripts": {
- "build": "nodemon server.js",
+ "build": "nodemon server.js"
   
   },
+  {
   "author": "",
   "license": "ISC",
   "dependencies": {
