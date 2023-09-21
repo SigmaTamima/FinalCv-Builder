@@ -133,9 +133,16 @@ function Public() {
       <img src="\images\pngwing.com(4).png" style={{height:'450px'}} />
       </div>
     </Slider>
-  </div>
     <div className='footer' id="contact">
-   Contact 
+      <Link to="https://www.facebook.com/Softograph">
+      <img  className="image1" src="\images\facebook.png"  /></Link>
+      <Link to="https://www.linkedin.com/company/softograph-limited">
+      <img  src="\images\linkedin.png" style={{height:'50px'}} /></Link>
+      <Link to="https://www.instagram.com/">
+      <img src="\images\instagram.png" style={{height:'50px'}} /></Link>
+ 
+      <Link to="https://www.twitter.com/">
+      <img src="\images\twitter.png" style={{height:'50px'}} /></Link>
   </div>
   </>
  
