@@ -22,7 +22,7 @@
    height: 100vh;
   padding: 20px 50px;
   position:relative;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.473), rgb(0, 0, 0));
+  background-color: rgba(104, 103, 103, 0.322);
   margin: auto;
 
 
@@ -143,13 +143,13 @@
 
     }
 .container-fluid{
-
-    
+ 
+  font-size:2vw;
     height: 45rem;
     text-align: right;
     margin-top: 7rem;
     color: aliceblue;
-   font-size: 30px;
+   
     padding: 40px 50px;
    
 }
@@ -168,13 +168,7 @@
 .col{
     margin-top: 4%;
 }
-.about{
-  
-   margin-top: 02rem;
-    height:40vh;
-    position: absolute;
-     
-  } 
+
   .footer{
     text-align: center;
    display: flex;
@@ -186,6 +180,7 @@
     height:5rem;
     margin-top: 00rem;
     padding: 20px 20rem;}
+
   .images{
     height:50px;
   }
@@ -221,9 +216,10 @@ text-align: center;
 
 .paragraph {
 text-align: center;
-font-size:130% ;
+font-size:2vw ;
 margin-top: 5rem;
-color: rgba(226, 226, 217, 0.884);
+color: rgb(0, 0, 0) 
+
 
 }
 .item{
